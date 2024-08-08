@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
 # Create your views here.
-from api.models import Snippet
-from api.serializers import SnippetSerializer
+from .models import Snippet
+from .serializers import SnippetSerializer
 from rest_framework import mixins
 from rest_framework import generics
 
